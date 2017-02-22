@@ -1,4 +1,4 @@
-package com.zhc.appdesignlibrary;
+package com.zhc.appdesignlibrary.bean;
 
 /**
  * Created by qqq on 2017/2/20.

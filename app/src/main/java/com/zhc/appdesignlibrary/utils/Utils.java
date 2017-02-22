@@ -1,4 +1,4 @@
-package com.zhc.appdesignlibrary;
+package com.zhc.appdesignlibrary.utils;
 
 import java.io.File;
 import java.io.FileInputStream;

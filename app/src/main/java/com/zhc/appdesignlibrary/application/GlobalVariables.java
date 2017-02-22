@@ -1,4 +1,7 @@
-package com.zhc.appdesignlibrary;
+package com.zhc.appdesignlibrary.application;
+
+import com.zhc.appdesignlibrary.bean.UserBean;
+import com.zhc.appdesignlibrary.utils.Utils;
 
 import java.io.Serializable;
 
