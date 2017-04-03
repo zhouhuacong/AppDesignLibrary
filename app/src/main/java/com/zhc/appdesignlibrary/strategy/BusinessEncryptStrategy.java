@@ -1,4 +1,4 @@
-package com.zhc.appdesignlibrary.stragety;
+package com.zhc.appdesignlibrary.strategy;
 
 /**
  * 服务端加密方式，使用json

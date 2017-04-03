@@ -15,10 +15,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.zhc.appdesignlibrary.stragety.avrol.io;
+package com.zhc.appdesignlibrary.strategy.avrol.io;
 
 
-import com.zhc.appdesignlibrary.stragety.avrol.util.Utf8;
+import com.zhc.appdesignlibrary.strategy.avrol.util.Utf8;
 
 import java.io.Flushable;
 import java.io.IOException;

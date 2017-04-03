@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.zhc.appdesignlibrary.stragety.avrol.io;
+package com.zhc.appdesignlibrary.strategy.avrol.io;
 
 import java.io.OutputStream;
 

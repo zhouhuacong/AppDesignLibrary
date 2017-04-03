@@ -1,4 +1,4 @@
-package com.zhc.appdesignlibrary.stragety;
+package com.zhc.appdesignlibrary.strategy;
 
 import java.util.Map;
 

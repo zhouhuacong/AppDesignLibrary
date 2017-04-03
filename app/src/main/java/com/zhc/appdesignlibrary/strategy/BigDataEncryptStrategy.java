@@ -1,7 +1,9 @@
-package com.zhc.appdesignlibrary.stragety;
+package com.zhc.appdesignlibrary.strategy;
 
-import com.zhc.appdesignlibrary.stragety.avrol.io.Encoder;
-import com.zhc.appdesignlibrary.stragety.avrol.io.EncoderFactory;
+import android.text.TextUtils;
+
+import com.zhc.appdesignlibrary.strategy.avrol.io.Encoder;
+import com.zhc.appdesignlibrary.strategy.avrol.io.EncoderFactory;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -29,6 +31,16 @@ public class BigDataEncryptStrategy implements IEncryptStrategy<byte[]> {
     }
 
     private void writeAllDataToEncode(LogDataEntity entity) {
-
+        if (entity == null) return;
+        try {
+            if (!TextUtils.isEmpty(entity.ad_action)) {
+                mEncoder.writeIndex(0);
+                mEncoder.writeString(entity.ad_action);
+            } else {
+                mEncoder.writeIndex(1);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

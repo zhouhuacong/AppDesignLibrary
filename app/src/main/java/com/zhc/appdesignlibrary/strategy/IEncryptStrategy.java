@@ -1,4 +1,4 @@
-package com.zhc.appdesignlibrary.stragety;
+package com.zhc.appdesignlibrary.strategy;
 
 /**
  * Created by qqq on 2017/4/3.

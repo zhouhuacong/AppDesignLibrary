@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.zhc.appdesignlibrary.stragety.avrol.util;
+package com.zhc.appdesignlibrary.strategy.avrol.util;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
